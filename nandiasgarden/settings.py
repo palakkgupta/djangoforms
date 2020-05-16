@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'm5_rck_gmnp6wg#tp=tmc#61qtyd^2e4)a*yy0l%@$gx6my!tn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['safe-caverns-89902.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
